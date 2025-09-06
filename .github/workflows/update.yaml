@@ -6,8 +6,8 @@ on:
   workflow_dispatch:  # Allow manual trigger
 
 env:
-  ip_v4: ${{ secrets.ip_v4 }}
-  ip_v6: ${{ secrets.ip_v6 }}
+  IP_V6: ${{ secrets.IP_V4 }}
+  IP_V4: ${{ secrets.IP_V6 }}
 
 jobs:
   update:
